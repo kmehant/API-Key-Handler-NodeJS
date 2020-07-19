@@ -172,6 +172,6 @@ Using Chai
 npm test
 ```
 
-![tests](./tests)
+![tests](./tests.png)
 
 
