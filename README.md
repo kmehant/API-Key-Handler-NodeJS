@@ -15,7 +15,7 @@ API Key handler using Node JS and Express (No DBMS is used). I was able to achie
 
 ## Design
 
-`apiGenHandler` handler Class warps all the required functions and data. Spawning a server will create a single `apiGenHandler` object which holds the data until the lifetime of the server. Finally wrapped with Express to act as a server.
+`apiGenHandler` handler Class wraps all the required functions and data. Spawning a server will create a single `apiGenHandler` object which holds the data until the lifetime of the server. Finally wrapped with Express to act as a server.
 
 <hr>
 
@@ -172,5 +172,6 @@ Using Chai
 npm test
 ```
 
+![tests](./tests)
 
 
