@@ -3,7 +3,7 @@ const express = require('express')
 
 
 // constants
-const SERVER_PORT = 3000
+const SERVER_PORT = 5000
 
 const apiGenHandler = require('./apiGenHandler')
 
@@ -68,13 +68,14 @@ app.delete('/key', function (req, res) {
 app.post('/key/poll', function (req, res) {
     var key = req.query.api
     var stat = handler.pollApiKey(key)
+    console.log(stat)
     var resp = {"message": "Success"}
     var code = 200
     if (stat == false) {
         resp.message = "Failed"
         code  = 404
     }
-    return res.status(404).json(resp).send()
+    return res.status(code).json(resp).send()
 })
 
 

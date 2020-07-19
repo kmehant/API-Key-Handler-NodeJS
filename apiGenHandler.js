@@ -96,7 +96,7 @@ class apiGenHandler {
                 this.activeSet.remove(key)
                 var c = this.activeCount
                 c = c - 1
-                self.activeCount = c
+                this.activeCount = c
             }
             delete this.keys[key]
             ret = true
@@ -114,7 +114,7 @@ class apiGenHandler {
             this.blockedQueue.delete(this.keys[key])
             timeStamp.setMinutes(timeStamp.getMinutes() + 5)
             this.keys[key]["ts"] = timeStamp
-            element = this.keys[key]
+            var element = this.keys[key]
             element["api"] = key
             this.blockedQueue.add(element)
             ret = true
