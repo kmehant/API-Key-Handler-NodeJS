@@ -160,11 +160,6 @@ To poll to server for the given API key which extends expiry time by 5 minutes
 ```
 Tests
 
-Using Pytest
-
-```
-pytest test.py
-```
 
 Using Chai
 
