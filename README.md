@@ -1,8 +1,6 @@
 # API Key handler as part of Codeuino LF Mentorship Assignment
 API Key handler using Node JS and Express (No DBMS is used). I was able to achieve this in **O(lgn)** Time Complexity 😁
 
-**Problem 2:** I have curated few implementation ideas for the Donut project. Here is the [Link](https://docs.google.com/document/d/1m5z3cI0M4NvnPgRABnV-bbk80kosjz6ZD7HwWwtKzSw/edit?usp=sharing)
-
 <hr>
 
 ## What is in here 🤔
