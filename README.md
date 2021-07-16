@@ -97,7 +97,7 @@ We run a infinite loop which keeps checking the `blockedQueue` for the expired t
 
 Clone the repository
 ```
-$ git clone https://github.com/kmehant/Codeuino-Assignment-Node.git
+$ git clone https://github.com/kmehant/API-Key-Handler-NodeJS.git
 ```
 
 Install node modules
