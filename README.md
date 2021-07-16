@@ -1,4 +1,4 @@
-# API Key handler as part of Codeuino LF Mentorship Assignment
+# API Key handler
 API Key handler using Node JS and Express (No DBMS is used). I was able to achieve this in **O(lgn)** Time Complexity 😁
 
 <hr>
