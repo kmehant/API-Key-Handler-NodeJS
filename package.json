@@ -17,7 +17,7 @@
     "chai-http": "^4.3.0",
     "collections": "^5.1.11",
     "crypto": "^1.0.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "ioredis": "^4.17.3",
     "jest": "^26.1.0",
     "nodemon": "^2.0.4",
